@@ -1,0 +1,100 @@
+.coin-toss-game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  height: 100vh;
+}
+.coin-toss-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  background-size: cover;
+  height: 400px;
+  width: 50%;
+  border-radius: 10px;
+  border: none;
+}
+@media screen and(max-width:768px) {
+  .coin-toss-card {
+    height: 500px;
+    width: 40%;
+  }
+}
+.main-heading {
+  color: #a35200;
+  font-size: 35px;
+  font-family: 'Roboto';
+}
+@media screen and(max-width:768px) {
+  .main-heading {
+    font-size: 30px;
+  }
+}
+.title {
+  color: #334155;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+@media screen and(max-width:768px) {
+  .title {
+    font-size: 20px;
+  }
+}
+.image {
+  width: 30%;
+}
+@media screen and(max-width:768px) {
+  .image {
+    width: 25%;
+  }
+}
+.btn {
+  background-color: #f9d423;
+  background-size: cover;
+  color: #a35200;
+  font-size: 10px;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 5px;
+  height: 20px;
+  width: 70px;
+}
+@media screen and(max-width:768px) {
+  .btn {
+    height: 30px;
+    width: 80px;
+  }
+}
+.total-container {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and(max-width:768px) {
+  .total-container {
+    flex-direction: column;
+  }
+}
+.total {
+  color: #475569;
+  font-size: 13px;
+  font-family: 'Roboto';
+  padding-right: 15px;
+}
+.heads {
+  color: #475569;
+  font-size: 13px;
+  font-family: 'Roboto';
+  padding-right: 15px;
+}
+.tails {
+  color: #475569;
+  font-size: 13px;
+  font-family: 'Roboto';
+  padding-right: 15px;
+}
